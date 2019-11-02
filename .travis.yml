@@ -1,1 +1,6 @@
-
+language: python
+python:
+  - "3.5"
+# commands to run tests
+script:
+  - pytest3 -m unittest
