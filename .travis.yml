@@ -3,4 +3,4 @@ python:
   - "3.5"
 # commands to run tests
 script:
-  - pytest3 -m unittest
+  - python3 -m unittest
